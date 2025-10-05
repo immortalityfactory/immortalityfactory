@@ -26,6 +26,19 @@ export const metadata: Metadata = {
   title: `${GAME_NAME} - Magical Factory Building Game`,
   description: `Build magical factories and unlock immortality secrets in this retro pixel-art incremental game. Master automation inspired by Factorio. Free to play!`,
   authors: [{ name: 'KorbohneD' }],
+  icons: {
+    icon: [
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-64x64.png', sizes: '64x64', type: 'image/png' },
+    ],
+    shortcut: '/immortalityfactory_logo_favicons/immortalityfactory-32x32.png',
+    apple: [
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-128x128.png', sizes: '128x128', type: 'image/png' },
+      { url: '/immortalityfactory_logo_favicons/immortalityfactory-256x256.png', sizes: '256x256', type: 'image/png' },
+    ],
+  },
   openGraph: {
     title: `${GAME_NAME} - Magical Factory Building Game`,
     description: 'Build magical factories, automate resources, unlock immortality. Retro pixel art Factorio-inspired game. Free!',
