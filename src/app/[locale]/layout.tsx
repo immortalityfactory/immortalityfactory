@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { Press_Start_2P, VT323 } from 'next/font/google'
 import { routing } from '@/i18n/routing'
-import { GAME_NAME } from '@/lib/constants'
+import { GAME_NAME, SITE_URL } from '@/lib/constants'
 
 const pressStart2P = Press_Start_2P({
   weight: '400',
@@ -35,10 +35,14 @@ export async function generateMetadata({
     en: {
       title: `${GAME_NAME} - Magical Factory Building Game`,
       description: 'Build magical factories and unlock immortality secrets in this retro pixel-art incremental game. Master automation inspired by Factorio. Free to play!',
+      alternates: {
+        canonical: `${SITE_URL}/en`,
+      },
       openGraph: {
         title: `${GAME_NAME} - Magical Factory Building Game`,
         description: 'Build magical factories, automate resources, unlock immortality. Retro pixel art Factorio-inspired game. Free!',
         locale: 'en_US',
+        url: `${SITE_URL}/en`,
       },
       twitter: {
         card: 'summary_large_image',
@@ -49,10 +53,14 @@ export async function generateMetadata({
     zh: {
       title: `Immortality Factory - 魔法工厂建造游戏`,
       description: '建造魔法工厂,解锁永生秘密。复古像素风格增量游戏,受 Factorio 启发的自动化玩法。免费畅玩,4-6 小时完整体验!',
+      alternates: {
+        canonical: `${SITE_URL}/zh`,
+      },
       openGraph: {
         title: 'Immortality Factory - 魔法工厂建造游戏',
         description: '建造魔法工厂,自动化资源管理,解锁永生秘密。复古像素风格 Factorio 风格游戏。免费!',
         locale: 'zh_CN',
+        url: `${SITE_URL}/zh`,
       },
       twitter: {
         card: 'summary_large_image',

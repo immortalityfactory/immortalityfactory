@@ -5,6 +5,7 @@ import {
   CLARITY_PROJECT_ID,
   GA_MEASUREMENT_ID,
   GAME_NAME,
+  SITE_URL,
 } from '@/lib/constants'
 import { Press_Start_2P, VT323 } from 'next/font/google'
 import './globals.css'
@@ -31,6 +32,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     alternateLocale: ['zh_CN'],
+    url: SITE_URL,
   },
   twitter: {
     card: 'summary_large_image',
@@ -49,10 +51,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://immortalityfactory.com',
+    canonical: SITE_URL,
     languages: {
-      'en': 'https://immortalityfactory.com/en',
-      'zh': 'https://immortalityfactory.com/zh',
+      'en': `${SITE_URL}/en`,
+      'zh': `${SITE_URL}/zh`,
     },
   },
 }
