@@ -9,6 +9,7 @@
 **详细文档**:
 - 📖 [完整部署教程](Docs/github-pages-deployment.md)
 - ✅ [部署检查清单](DEPLOYMENT_CHECKLIST.md)
+- 🔧 [故障排查指南](Docs/troubleshooting.md) ⚠️ 遇到问题先看这里
 - 🏗️ [技术设计文档](Docs/TECH_DESIGN.md)
 
 ## 技术栈
