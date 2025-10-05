@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { GAME_NAME } from '@/lib/constants'
+import Script from 'next/script'
+import {
+  CLARITY_PROJECT_ID,
+  GA_MEASUREMENT_ID,
+  GAME_NAME,
+} from '@/lib/constants'
 import { Press_Start_2P, VT323 } from 'next/font/google'
 import './globals.css'
 
@@ -59,9 +64,39 @@ export default function RootLayout({
 }: {
   children: ReactNode
 }) {
+  const isProduction = process.env.NODE_ENV === 'production'
+
   return (
     <html lang="en" suppressHydrationWarning className={`${pressStart2P.variable} ${vt323.variable}`}>
-      <body className="bg-background text-foreground font-retro">{children}</body>
+      <body className="bg-background text-foreground font-retro">
+        {children}
+        {isProduction && (
+          <>
+            <Script
+              id="gtag-lib"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+            <Script id="clarity-init" strategy="afterInteractive">
+              {`
+                (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                })(window, document, "clarity", "script", "${CLARITY_PROJECT_ID}");
+              `}
+            </Script>
+          </>
+        )}
+      </body>
     </html>
   )
 }
