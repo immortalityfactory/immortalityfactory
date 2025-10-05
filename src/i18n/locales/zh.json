@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "language": "语言"
+  },
+  "game": {
+    "title": "Immortality Factory",
+    "subtitle": "工厂建造增量游戏",
+    "loading": "游戏加载中...",
+    "fullscreen": "全屏",
+    "exitFullscreen": "退出全屏",
+    "error": "游戏加载失败",
+    "description": "你曾是魔法界最强大巫师的学徒，却因研究禁忌的永生魔法而被驱逐。现在你独自来到 Immortality Factory，被魔法社区排斥，身上只有几枚金币和一本配方书。",
+    "playtime": "游戏时长：4-6 小时",
+    "controls": "操作方式：鼠标与键盘（可选）",
+    "playNow": "立即游玩",
+    "features": {
+      "title": "游戏特色",
+      "feature1": "受 Factorio 启发的工厂建造玩法",
+      "feature2": "复杂的资源管理和生产链系统",
+      "feature3": "复古像素艺术风格",
+      "feature4": "明确的游戏结局和进度系统"
+    },
+    "story": {
+      "title": "Immortality Factory 的冒险之旅",
+      "paragraph1": "因涉足禁忌的永生魔法而被魔法社区驱逐，你独自来到被诅咒的山谷。在 Immortality Factory 中，这里魔法力量强大，空气中弥漫着被诅咒的知识。",
+      "paragraph2": "在你的 Immortality Factory 里，你必须制作基础组件，建造生产线，解锁永生的秘密。掌握工厂自动化和资源管理的艺术，在这场追寻永生的冒险中实现你的终极目标。"
+    },
+    "howToPlayTitle": "如何开始 Immortality Factory",
+    "howToPlayStep1": "开启你的 Immortality Factory，点击周围的资源收集金币和基础材料",
+    "howToPlayStep2": "打开配方书，制作机器和建筑来实现工厂生产自动化",
+    "howToPlayStep3": "连接多条工厂生产线，制造复杂物品并解锁永生秘密",
+    "tipsTitle": "Immortality Factory 攻略与技巧",
+    "tip1": "仔细规划 Immortality Factory 布局 - 高效的工厂摆放可以减少运输时间和瓶颈",
+    "tip2": "优先升级关键工厂建筑以最大化永生研究产出，然后再扩展新资源",
+    "tip3": "在 Immortality Factory 中经常查看配方书，发现新的合成组合和解锁工厂自动化选项",
+    "gameplayImageAlt": "Immortality Factory 游戏玩法截图 - 展示魔法工厂建造和永生研究管理界面",
+    "factoryImageAlt": "Immortality Factory 建造系统 - Factorio风格的自动化生产线布局用于永生研究",
+    "magicImageAlt": "Immortality Factory 资源管理 - 展示复杂的魔法材料生产链和永生配方系统"
+  },
+  "footer": {
+    "poweredBy": "技术支持",
+    "madeWith": "制作于"
+  }
+}

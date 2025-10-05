@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:instausername.com)",
+      "Bash(npx nuxi@latest init . --packageManager npm)",
+      "Bash(npx create-nuxt-app:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:html-classic.itch.zone)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm build)",
+      "Bash(pnpm remove:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(tree:*)",
+      "Read(//Users/jae/.claude/**)",
+      "Bash(claude mcp:*)",
+      "Bash(rm:*)",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__take_snapshot",
+      "Bash(cp:*)"
+    ],
+    "deny": []
+  }
+}
