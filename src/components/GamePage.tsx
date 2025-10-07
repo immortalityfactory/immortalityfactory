@@ -55,10 +55,8 @@ export function GamePage({ translations: t }: GamePageProps) {
       {/* Game Container */}
       <section className="flex-1 flex items-center justify-center p-4 md:p-8">
         <div className="w-full max-w-6xl">
-          <div className="mb-4 text-center">
-            <p className="font-pixel text-primary text-lg md:text-xl mb-2">{t.playNow}</p>
-          </div>
           <GameEmbed 
+            playNowText={t.playNow}
             translations={{
               loading: t.loading,
               fullscreen: t.fullscreen,
