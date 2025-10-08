@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "について",
+    "language": "言語"
+  },
+  "game": {
+    "title": "Immortality Factory",
+    "subtitle": "工場建設インクリメンタルゲーム",
+    "loading": "ゲーム読み込み中...",
+    "fullscreen": "フルスクリーン",
+    "exitFullscreen": "フルスクリーン解除",
+    "error": "ゲームの読み込みに失敗しました",
+    "description": "あなたは魔法界で最も強力な魔法使いの見習いでしたが、禁断の不死魔法への興味から追放されました。今、Immortality Factoryで一人ぼっち、魔法コミュニティから追放され、数枚の金貨とレシピ本だけを持っています。",
+    "playtime": "プレイ時間：4〜6時間",
+    "controls": "操作：マウス＆キーボード（オプション）",
+    "playNow": "今すぐプレイ",
+    "features": {
+      "title": "ゲームの特徴",
+      "feature1": "Factorioにインスパイアされた工場建設ゲームプレイ",
+      "feature2": "複雑なリソース管理と生産チェーン",
+      "feature3": "レトロなピクセルアートビジュアルスタイル",
+      "feature4": "明確な進行と決定的なエンディング"
+    },
+    "story": {
+      "title": "Immortality Factoryでの不死への旅",
+      "paragraph1": "禁断の不死魔法に手を染めたことで魔法コミュニティから追放され、呪われた谷で一人になりました。Immortality Factoryでは、魔法が強く流れ、空気は呪われた知識で満ちています。",
+      "paragraph2": "あなたの不死工場では、基本的なコンポーネントを作り、生産ラインを構築して永遠の命の秘密を解き明かさなければなりません。この不死を求める冒険で、工場自動化とリソース管理の技術を習得しましょう。"
+    },
+    "howToPlayTitle": "Immortality Factoryの遊び方",
+    "howToPlayStep1": "リソースをクリックして金貨と基本素材を集め、不死工場を始めましょう",
+    "howToPlayStep2": "レシピ本を開いて、工場の生産を自動化する機械と建物を作りましょう",
+    "howToPlayStep3": "工場の生産ラインをチェーン化して複雑なアイテムを作成し、不死の秘密を解き明かしましょう",
+    "tipsTitle": "Immortality Factory戦略＆ヒント",
+    "tip1": "不死工場のレイアウトを慎重に計画しましょう - 効率的な工場配置は輸送時間とボトルネックを削減します",
+    "tip2": "新しいリソースに拡張する前に、主要な工場建物を優先的にアップグレードして不死研究の生産性を最大化しましょう",
+    "tip3": "Immortality Factoryでレシピ本を頻繁にチェックして、クラフトの組み合わせを発見し、新しい工場自動化オプションをアンロックしましょう",
+    "gameplayImageAlt": "Immortality Factoryのゲームプレイスクリーンショット - 魔法の工場建設と不死研究管理インターフェースを表示",
+    "factoryImageAlt": "Immortality Factoryの建設システム - Factorioスタイルの自動化生産ラインレイアウトで不死研究を実現",
+    "magicImageAlt": "Immortality Factoryのリソース管理 - 複雑な魔法素材の生産チェーンと不死レシピシステムを表示"
+  },
+  "footer": {
+    "poweredBy": "提供",
+    "madeWith": "作成"
+  }
+}
+

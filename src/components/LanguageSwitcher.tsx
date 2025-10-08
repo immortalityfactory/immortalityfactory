@@ -42,7 +42,8 @@ export function LanguageSwitcher() {
   const getLanguageName = (loc: Locale) => {
     const names: Record<Locale, string> = {
       en: 'EN',
-      zh: '中文'
+      zh: '中文',
+      ja: '日本語'
     }
     return names[loc] || loc.toUpperCase()
   }
